@@ -1,1 +1,4 @@
-langchain_groq
+langchain-groq
+langchain-mcp-adapters
+mcp
+langgraph
