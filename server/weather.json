@@ -1,15 +1,15 @@
 {
-    "mcpServers":{
-        "weather": {
-      "command": "uv",
+  "mcpServers": {
+    "weather": {
+      "command": "/opt/miniconda3/bin/uv",
       "args": [
         "run",
         "--with",
         "mcp[cli]",
         "mcp",
         "run",
-        "/Users/rparimi/Desktop/URao-genAI/mcpnp/weather.py"
+        "/Users/rparimi/Desktop/URao-genAI/mcpnp/server/weather.py"
       ]
     }
-}
+  }
 }
