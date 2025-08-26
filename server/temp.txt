@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+      "weather": {
+        "command": "/Users/rparimi/Desktop/URao-genAI/mcpnp/.venv/bin/python",
+        "args": ["/Users/rparimi/Desktop/URao-genAI/mcpnp/server/weather.py"]
+      }
+    }
+}
