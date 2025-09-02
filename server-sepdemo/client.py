@@ -25,16 +25,16 @@ async def run_memory_chat():
     # llm = ChatGroq(model="qwen-qwq-32b")
     llm = ChatGroq(
     model="llama-3.3-70b-versatile",   # higher TPM
-    temperature=0.2,
-    max_tokens=512                     # cap response size
+    temperature=0.1,
+    max_tokens=256                     # cap response size
     )
-
+    
     # Create agent with memory_enabled=True
     agent = MCPAgent(
         llm=llm,
         client=client,
-        max_steps=15,
-        memory_enabled=True,  # Enable built-in conversation memory
+        max_steps=1,
+        memory_enabled=False,  # Enable built-in conversation memory
     )
 
     print("\n===== Interactive MCP Chat =====")
